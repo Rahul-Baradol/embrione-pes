@@ -10,9 +10,13 @@ const SponsorCard = ({ sponsorName, sponsorImageURL, sponsorWebsiteURL, index })
         // data-aos-delay={`${(index + 1) * 200}`}
         >
       <Image src={sponsorImageURL} alt={sponsorName} height={500} width={500} className = 'rounded-md' />
+      <p className="text-white mt-2 text-lg">{sponsorName}</p>
     </div>
   )
 }
+
+
+
 const SponsorsComponent = () => {
   return (
     <div className="flex flex-col w-full h-fit gap-6">

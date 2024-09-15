@@ -1,18 +1,18 @@
 import Navbar from "@/components/Navbar";
-import { NavbarKodikon3 } from "@/components/Kodikon-3/NavbarKodikon3";
+import { NavbarKodikon3 } from "@/components/Kodikon-4/NavbarKodikon4";
 import ScrollProgressComponent from "@/components/ScrollProgress/ScrollProgressComponent";
 import BottomNavigationComponent from "@/components/BottomNavigation/BottomNavigationComponent";
-import HeroComponent from "@/components/Kodikon-3/HeroComponent";
-import AboutTheEvent from "@/components/Kodikon-3/AboutTheEvent/AboutTheEvent";
-import PreviousEditionComponent from "@/components/Kodikon-3/PreviousEditions/PreviousEditionComponent";
-import HackathonThemes from "@/components/Kodikon-3/HackathonThemes/HackathonThemes";
-import EventTimeline from "@/components/Kodikon-3/Timeline/EventTimeline";
-import SponsorsComponent from "@/components/Kodikon-3/Sponsors/SponsorsComponent";
-import PrizesComponent from "@/components/Kodikon-3/Prizes/PrizesComponent";
+import HeroComponent from "@/components/Kodikon-4/HeroComponent";
+import AboutTheEvent from "@/components/Kodikon-4/AboutTheEvent/AboutTheEvent";
+import PreviousEditionComponent from "@/components/Kodikon-4/PreviousEditions/PreviousEditionComponent";
+import HackathonThemes from "@/components/Kodikon-4/HackathonThemes/HackathonThemes";
+import EventTimeline from "@/components/Kodikon-4/Timeline/EventTimeline";
+import SponsorsComponent from "@/components/Kodikon-4/Sponsors/SponsorsComponent";
+import PrizesComponent from "@/components/Kodikon-4/Prizes/PrizesComponent";
 import Footer from "@/components/Footer/Footer";
-import EventCountdown  from "@/components/Kodikon-3/Countdown/EventCountdown";
-import FAQ from "@/components/Kodikon-3/FAQComponent";
-import Map from "@/components/Kodikon-3/MapComponent";
+import EventCountdown  from "@/components/Kodikon-4/Countdown/EventCountdown";
+import FAQ from "@/components/Kodikon-4/FAQComponent";
+import Map from "@/components/Kodikon-4/MapComponent";
 export default function LandingPage() {
   return (
     <>
